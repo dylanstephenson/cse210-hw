@@ -1,0 +1,9 @@
+Version control means that the history of changes within software code, what was changed, who changed it, and when it happened, is recorded.
+There are many benefits to version control, but one of the main benefits is that if a change causes a bug or break in the program,
+the program can be rolled back to a previous version to get the software working while developers look over the code and see what 
+caused the break. I use version control a lot at work. Recently a new update was released at work that would create a new highly
+demanded account type. However, this update crashed our site, and caused the other account roles to stop functioning correctly.
+Version control was used to roll back that update so that our customers could continue using the site while developers reviewed
+the code to find out what was going on. A developer can work on multiple files within a program at once, but only push the files 
+that are ready to be merged into the main branch by staging the files using "git add <file name>". Using the exact file name allows 
+the developer to control which files are added to the next commit, and which ones hang back to continue development. 
