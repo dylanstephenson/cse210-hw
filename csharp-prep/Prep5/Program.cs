@@ -4,15 +4,12 @@ class Program
 {
     static void Main(string[] args)
     {
+        DisplayWelcome();
+        string userName = PromptUserName();
+        int favNum = PromptUserNumber();
+        double squareNum = SquareNumber(favNum);
+        DisplayResult(userName, squareNum);
 
-        static void main()
-        {
-            DisplayWelcome();
-            string userName = PromptUserName();
-            int favNum = PromptUserNumber();
-            double squareNum = SquareNumber(favNum);
-            DisplayResult(userName, squareNum);
-        }
 
         static void DisplayWelcome()
         {
@@ -39,7 +36,5 @@ class Program
         {
             Console.WriteLine($"{name}, your number squared is {squareNum}");
         }
-
-        main();
     }
 }
