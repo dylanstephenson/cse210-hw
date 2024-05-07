@@ -1,7 +1,7 @@
 using System;
 using System.IO.Enumeration;
 
-// CREATIVITY: I added creativity to my assignment to exceed requirements by adding the Get Inspired method to PromptGenerator. This picks a random quote and prints it the console when the user types in "5".
+// CREATIVITY: I added creativity to my assignment to exceed requirements by adding the GetInspired() method to the PromptGenerator class. This picks a random quote from a list and prints it the console when the user types in "5".
 // This helps people who avoid writing in their journal because they worry that they might feel discouraged and sad after writing about their day.
 
 class Program
