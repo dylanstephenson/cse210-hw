@@ -1,0 +1,7 @@
+1710
+SimpleGoal|run today|I need to go on a run today|20|False
+SimpleGoal|Get endorsement|get endorsement from bishop for school|100|True
+EternalGoal|read scriptures|I want to read every day|30
+SimpleGoal|Eat beans|I need to eat more beans yah|10|True
+EternalGoal|pray|Say prayers every morning|50
+ChecklistGoal|Write songs|Write a certain amount of songs during the month|100|1000|5|5
