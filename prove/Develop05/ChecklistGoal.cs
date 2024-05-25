@@ -1,4 +1,5 @@
-public class ChecklistGoal : Goal{
+public class ChecklistGoal : Goal
+{
     // Attributes
     private int _amountCompleted;
     private int _target;
