@@ -9,9 +9,18 @@ public abstract class Activity
         _length = length;
     }
     
-    public abstract double CalculateDistance();
-    public abstract double CalculateSpeed();
-    public abstract double CalculatePace();
+    public virtual double CalculateDistance()
+    {
+        return 0;
+    }
+    public virtual double CalculateSpeed()
+    {
+        return 0;
+    }
+    public virtual double CalculatePace()
+    {
+        return 0;
+    }
     public string GetSummary()
     {
         var activityType = GetType().Name;
